@@ -8,6 +8,7 @@ body{
     background-size: cover; /* Scale the image to cover the entire background */
     background-repeat: no-repeat; /* Prevent image from repeating */
     background-position: center;
+    background-attachment: fixed;
     /*background-color: rgb(255, 255, 255);*/
 }
 .navigation{
@@ -28,4 +29,37 @@ body{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+}
+.content{
+
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: #fff;
+}
+.content img{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    margin-right: 30px;
+    width: 30%;
+
+}
+.content h1{
+    font-size: 70px;
+    position: relative;
+    left:20%
+
+}
+.content p{
+    position: relative;
+    top: 10%;
+    left: 45%;
+    width: 50%;
+    font-size: 25px;
+    color: #d84949;
+
+
+
 }
