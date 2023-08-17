@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("jacke.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+
+}
