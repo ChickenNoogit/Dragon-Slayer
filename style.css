@@ -33,15 +33,15 @@ body{
 .content{
 
     width: 100%;
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 40%;
     text-align: center;
     color: #fff;
 }
 .content img{
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 40%;
     margin-right: 30px;
     width: 30%;
 
@@ -49,17 +49,69 @@ body{
 .content h1{
     font-size: 70px;
     position: relative;
-    left:20%
-
+    left:20%;
+    top: 50%;
 }
 .content p{
     position: relative;
-    top: 10%;
+    top: 50%;
     left: 45%;
     width: 50%;
     font-size: 25px;
     color: #d84949;
+  
+
+}
+.slideshow{
+    width: 85vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    overflow: hidden;
+    border: 20px solid #720e0e;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgba(189, 200, 30, 0.3);
+
+}
+.slideshow_elements{
+    width: 100%;
+    display:flex;
+    animation: slide 16s infinite;
 
 
-
+}
+.slideshow img{
+    width: 100%
+}
+@keyframes slide{
+    0%{
+        transform:translateX(0);
+    }
+    33%{
+        transform:translateX(0);
+    }
+    38%{
+        transform:translateX(-100%);
+    }
+    66%{
+        transform:translateX(-100%);
+    }
+    71%{
+        transform:translateX(-200%);
+    }
+    100%{
+        transform:translateX(-200%);
+    }
+}
+.center_text{
+    width: 100%;
+    font-size: 70px;
+    position: relative;
+    top:50%;
+    right:17%;
+    margin-left: 50%;
+    color:#c7e30d;
+    text-align: center;
+    height: 25%;
 }
