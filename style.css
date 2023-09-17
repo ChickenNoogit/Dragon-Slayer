@@ -1,7 +1,8 @@
-p{
+p {
     text-align: center;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("website\ background.jpg");
@@ -11,110 +12,120 @@ body{
     background-attachment: fixed;
     /*background-color: rgb(255, 255, 255);*/
 }
-.navigation{
+
+.navigation {
     width: 85%;
-    margin:auto;
+    margin: auto;
     padding: 35px 0;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navigation ul li {
-    display:inline-block;
-    margin: 0 20px;
 
-}
-.navigation ul li a{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-}
-.content{
+    .navigation ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
 
+        .navigation ul li a {
+            font-size: 30px;
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+.content {
     width: 100%;
     position: relative;
     top: 40%;
     text-align: center;
     color: #fff;
 }
-.content img{
-    position: absolute;
-    left: 5%;
-    top: 40%;
-    margin-right: 30px;
-    width: 30%;
 
-}
-.content h1{
-    font-size: 70px;
-    position: relative;
-    left:20%;
-    top: 50%;
-}
-.content p{
-    position: relative;
-    top: 50%;
-    left: 45%;
-    width: 50%;
-    font-size: 25px;
-    color: #d84949;
-  
+    .content img {
+        position: absolute;
+        left: 5%;
+        top: 40%;
+        margin-right: 30px;
+        width: 30%;
+    }
 
-}
-.slideshow{
+    .content h1 {
+        font-size: 70px;
+        position: relative;
+        left: 20%;
+        top: 50%;
+    }
+
+    .content p {
+        position: relative;
+        top: 50%;
+        left: 45%;
+        width: 50%;
+        font-size: 25px;
+        color: #d84949;
+    }
+
+.slideshow {
     width: 85vmin;
     position: absolute;
     transform: translate(-50%, -50%);
-    top:50%;
+    top: 50%;
     left: 50%;
     overflow: hidden;
     border: 20px solid #720e0e;
     border-radius: 8px;
     box-shadow: 0px 0px 30px rgba(189, 200, 30, 0.3);
-
 }
-.slideshow_elements{
+
+.slideshow_elements {
     width: 100%;
-    display:flex;
+    display: flex;
     animation: slide 16s infinite;
-
-
 }
-.slideshow img{
+
+.slideshow img {
     width: 100%
 }
-@keyframes slide{
-    0%{
-        transform:translateX(0);
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
     }
-    33%{
-        transform:translateX(0);
+
+    33% {
+        transform: translateX(0);
     }
-    38%{
-        transform:translateX(-100%);
+
+    38% {
+        transform: translateX(-100%);
     }
-    66%{
-        transform:translateX(-100%);
+
+    66% {
+        transform: translateX(-100%);
     }
-    71%{
-        transform:translateX(-200%);
+
+    71% {
+        transform: translateX(-200%);
     }
-    100%{
-        transform:translateX(-200%);
+
+    100% {
+        transform: translateX(-200%);
     }
 }
-.center_text{
+
+.center_text {
     width: 100%;
     font-size: 70px;
     position: relative;
-    top:50%;
-    right:17%;
+    top: 50%;
+    right: 17%;
     margin-left: 50%;
-    color:#c7e30d;
+    color: #c7e30d;
     text-align: center;
     height: 25%;
 }
+
 p {
     text-align: center;
 }
@@ -131,7 +142,7 @@ body {
 
 .navigation {
     width: 85%;
-    margin: auto;  
+    margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
@@ -152,14 +163,15 @@ body {
 
 
 div.transbox {
+    min-width: 200px;
     width: 19.5%;
-    height: 80%;
+
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     position: absolute;
-    top: 25%;
+    top: 39%;
     left: 17%;
 }
 
@@ -168,34 +180,62 @@ div.transbox {
         font-weight: bold;
         color: #337fcc;
     }
+
     div.transbox l {
-                margin: 5%;
+        margin: 5%;
         font-weight: bold;
         color: #000000;
     }
 
 div.coachpic {
-top: 29%;
-left: 20%;
-position: absolute;
 
 }
+
+.coachpic img {
+    top: 29%;
+    left: 20%;
+    position: absolute;
+    width: 16.8%;
+  
+    height: 47%;
+}
+
 div.transbox2 {
+    min-width: 200px;
     width: 19.5%;
-    height: 80%;
+   
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     position: absolute;
-    top: 25%;
-    left: 62%; 
+    top: 39%;
+    left: 75%;
 }
+
     div.transbox2 p {
-    margin: 5%;
-    font-weight: bold;
-    color: #337fcc;
+        margin: 5%;
+        font-weight: bold;
+        color: #337fcc;
+    }
+
+div.contact {
+    width: 10%;
+    height: 15%;
+    margin: 30px;
+    background-color: #000000;
+    border: 1px solid black;
+    opacity: 0.6;
+    position: absolute;
+    top: 136.5%;
+    left: 80.35%;
 }
+
+    div.contact p {
+        margin: 5%;
+        font-weight: bold;
+        color: #d4c30d;
+    }
 
 
 
@@ -204,12 +244,12 @@ div.line {
     height: 11%;
     margin: 30px;
     background-color: #ffffff;
-
     opacity: 0.6;
     position: absolute;
     top: 128%;
     left: 49.2%;
 }
+
 div.line2 {
     width: 6.5%;
     height: 0.45%;
@@ -221,45 +261,66 @@ div.line2 {
     left: 73.9%;
 }
 
-div.sonny{
+div.sonny {
+}
 
+.sonny img {
+    width: 95%;
+    height: 65%;
     top: 29%;
     left: 65%;
     position: absolute;
 }
-div.safesport{
 
-
+div.safesport {
 }
+
 .safesport img {
-    top: 120%;
-    left: 45.5%;
+    min-width: 170px;
+    width: 15%;
+    height: 22%;
+    top: clamp(1250px,60vw,1000000px);
+    left: 19.5%;
     position: absolute;
-    width:10%;
-    height: 15%;
 }
+
 .volunteers {
-    top: 140%;
-    left: 25.5%;
-    width: 100%;
+    min-width: 600px;
+    top: clamp(1100px,60vw,100000000px);
+    left: clamp(310px,35.5vw,1000000px);
+    width: 65%;
     position: absolute;
     text-align: center;
 }
+
     .volunteers p {
         position: absolute;
-
         width: 50%;
         font-weight: bold;
         color: #337fcc
     }
-div.copper{
-    top: 33%;
-    left: 12%;
-    position: absolute;
 
+div.copper {
 }
-div.bronze{
-    top: 45%;
-    left: 12%;
+
+.copper img {
+    min-width: 100px;
+    
+    width: 6.8%;
+    height: 12%;
+    top: 43%;
+    left: 3%;
+    position: absolute;
+}
+
+div.bronze {
+}
+
+.bronze img {
+    min-width: 100px;
+    width: 6.8%;
+    height: 12%;
+    top: 55%;
+    left: 3%;
     position: absolute;
 }
