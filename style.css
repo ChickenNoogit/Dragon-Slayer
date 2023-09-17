@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    max-width: 100%;
+}
+.container{
+    height: 200vh;
+}
 p{
     text-align: center;
 }
 body{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("website\ background.jpg");
     background-size: cover; /* Scale the image to cover the entire background */
     background-repeat: no-repeat; /* Prevent image from repeating */
@@ -34,27 +41,27 @@ body{
 
     width: 100%;
     position: relative;
-    top: 40%;
+    top: 60vh;
     text-align: center;
     color: #fff;
 }
 .content img{
     position: absolute;
     left: 5%;
-    top: 40%;
-    margin-right: 30px;
-    width: 30%;
+    top: 15%;
 
+    width: 30%;
+    border-radius: 10%;
 }
 .content h1{
     font-size: 70px;
-    position: relative;
-    left:20%;
-    top: 50%;
+    position: absolute;
+    right:20%;
+    top: 0%;
 }
 .content p{
     position: relative;
-    top: 50%;
+
     left: 45%;
     width: 50%;
     font-size: 25px;
@@ -114,4 +121,58 @@ body{
     color:#c7e30d;
     text-align: center;
     height: 25%;
+}
+footer{
+    font-family: 'poppins';
+    position: absolute;
+    height: 20%;
+    top: 165vh;
+    left: 0%;
+    max-width: 100vw;
+    display: flex;
+    flex-basis: 50%;
+
+
+    /* background-color: #731212; 
+    background-image: linear-gradient(#290b03, #451002);*/
+}
+footer h1{
+    max-width: 100vw;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 11vw;/*space between footer heading*/
+    text-transform: uppercase;
+    margin: 15px 10px 0 0;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(145, 126, 15);
+    white-space: nowrap;
+
+}
+footer p{
+    max-width: 100vw;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+.social{
+    margin: 10vh 0 0 0;
+    padding: 0 100px;
+}
+.social a{
+    padding: 0 2px;
+}
+.social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.social a span:hover{
+    background: #c70f0f;
 }
